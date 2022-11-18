@@ -566,7 +566,7 @@ def load_model_weights():
     session = requests.Session()
 
     if not os.path.exists(progressive_segG_weights_PATH):
-        print(os.getcwd())
+        print("download ",progressive_segG_weights_URL)
         with session.get(progressive_segG_weights_URL, stream=True) as r:
             r.raise_for_status()
             with open(progressive_segG_weights_PATH, 'wb') as f:
@@ -575,7 +575,7 @@ def load_model_weights():
                         f.write(chunk)
 
     if not os.path.exists(progressive_weights_PATH):
-        print(os.getcwd())
+        print("download ", progressive_segG_weights_PATH)
         with session.get(progressive_weights_URL, stream=True) as r:
             r.raise_for_status()
             with open(progressive_weights_PATH, 'wb') as f:
