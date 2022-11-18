@@ -1,0 +1,4 @@
+SBGAN/weights/**
+SBGAN/logs/**
+venv/**
+venv-linux/**

@@ -1,0 +1,1 @@
+datasets/ADE15c_indoor_lbl/conference_room/ADE_train_00006115.png 3

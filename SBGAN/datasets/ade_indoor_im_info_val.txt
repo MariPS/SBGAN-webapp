@@ -1,0 +1,1 @@
+datasets/ADE15c_indoor_val_img/conference_room/ADE_val_00000274.jpg 3
