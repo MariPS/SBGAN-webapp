@@ -555,10 +555,8 @@ class ProgressiveTrainer:
 
 @st.cache(suppress_st_warning=True)
 def load_model_weights():
-    progressive_weights_URL = "https://github.com/MariPS/SBGAN-webapp/releases/download/v0.0.1/852418.pth"
-    end2end_D_URL = "https://github.com/MariPS/SBGAN-webapp/releases/download/v0.0.1/856795_net_D2.pth"
-    progressive_segG_weights_URL = "https://github.com/MariPS/SBGAN-webapp/releases/download/v0.0.1/376_net_G.pth"
-    progressive_segD_weights_URL = "https://github.com/MariPS/SBGAN-webapp/releases/download/v0.0.1/376_net_D.pth"
+    progressive_weights_URL = "https://github.com/MariPS/SBGAN-webapp/releases/download/v1.0.0/852418.pth"
+    progressive_segG_weights_URL = "https://github.com/MariPS/SBGAN-webapp/releases/download/v1.0.0/376_net_G.pth"
 
     progressive_weights_PATH = "weights/ft_ade_indoor_end2end/852418.pth"
     end2end_D_PATH = "weights/ft_ade_indoor_end2end/856795_net_D2.pth"
